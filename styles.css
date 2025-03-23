@@ -1,2 +1,11 @@
-
-/* Your CSS Code here. */
+.holder {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap; /* Important for wrapping */
+            width: 100%; /* Ensure holder takes full width */
+        }
+        .item {
+            border: 1px solid black;
+            padding: 10px;
+            margin-bottom: 10px; /* Add margin for spacing between rows */
+        }
